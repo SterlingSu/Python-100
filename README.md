@@ -118,8 +118,24 @@ This is a multi-line string.
 This is the second line.
 
 ```
+#9： 缩进（Indentation）与块（block）重要吗？
 
+空白区6在 Python 中十分重要。实际上，空白区在各行的开头非常重要。这被称作 缩进（Indentation）。在逻辑行的开头留下空白区（使用空格或制表符）用以确定各逻辑行的缩进级别，而后者又可用于确定语句的分组。
+这意味着放置在一起的语句必须拥有相同的缩进。每一组这样的语句被称为 块（block）。我们将会在后文章节的案例中了解块这一概念是多么重要。
 
+> 有一件事你需要记住：错误的缩进可能会导致错误。
+```Python
+i = 5
+# 下面将发生错误，注意行首有一个空格
+ print('Value is', i)
+print('I repeat, the value is', i)
+当你运行这一程序时，你将得到如下错误：
+  File "whitespace.py", line 3
+    print('Value is', i)
+    ^
+IndentationError: unexpected indent
+# 缩进错误：意外缩进
+```
 
 
 
