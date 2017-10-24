@@ -89,8 +89,9 @@ TypeError:Cannot convert 'int' object to str implictly
 >>> spam= 'Hello'
 ?
 ```
+>变量只需被赋予某一值。不需要声明或定义数据类型。
 
-#7：变量名的规则有哪些？
+#7：变量名的规则有哪些？<br />
 1.只能一个词。<br />
 2.只能包含字母、数字和下划线。<br />
 3.不能以数字开头。<br />
