@@ -12,3 +12,14 @@ for i in range(1,5):
                 print(i,j,k,m)
 print("次数是m",format(m))
 ```
+#2： 
+```Python
+age = 20
+name = 'Swaroop'
+
+print('{0} was {1} years old when he wrote this book'.format(name, age))
+print('Why is {0} playing with that python?'.format(name))
+
+Swaroop was 20 years old when he wrote this book
+Why is Swaroop playing with that python?
+```
