@@ -64,7 +64,12 @@ However in the end it doesn't matter how a string was created, being it a raw st
 ```
 > *错误示范*
 ```Python
+>>> 'Elsa' + 100  # Elsa同学加100块钱
+```
+接下来呢？
+```Python
 >>> 'Elsa' * 5
+>>> 'ElsaElsaElsaElsaElsa'
 ```
 
 
