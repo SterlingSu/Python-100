@@ -90,6 +90,12 @@ TypeError:Cannot convert 'int' object to str implictly
 ?
 ```
 
+#7：变量名的规则有哪些？
+1.只能一个词。<br />
+2.只能包含字母、数字和下划线。<br />
+3.不能以数字开头。<br />
+spam\SPAM\Spam\SpAm 是4个不同的变量，小写字母开头是Python的惯例。
+
 
 
 
