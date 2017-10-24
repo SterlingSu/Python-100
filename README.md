@@ -129,15 +129,19 @@ i = 5
 # 下面将发生错误，注意行首有一个空格
  print('Value is', i)
 print('I repeat, the value is', i)
+
 当你运行这一程序时，你将得到如下错误：
   File "whitespace.py", line 3
     print('Value is', i)
     ^
-IndentationError: unexpected indent
-# 缩进错误：意外缩进
+IndentationError: unexpected indent   # 缩进错误：意外缩进
 ```
 
+>如何缩进
 
+>使用四个空格来缩进。这是来自 Python 语言官方的建议。好的编辑器会自动为你完成这一工作。请确保你在缩进中使用数量一致的空格，否则你的程序将不会运行，或引发不期望的行为。
+>针对静态编程语言程序员的提示
+>Python 将始终对块使用缩进，并且绝不会使用大括号。你可以通过运行 from __future__ import braces 来了解更多信息。
 
 
 
