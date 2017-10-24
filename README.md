@@ -373,3 +373,155 @@ print "7 - c 的值为：", c
 |<<	|左移动运算符|	a << 2 输出结果 240 ，二进制解释： 1111 0000|
 |>>	|右移动运算符|	a >> 2 输出结果 15 ，二进制解释： 0000 1111|
 
+以下实例演示了Python所有位运算符的操作：
+```Python
+a = 60            # 60 = 0011 1100
+b = 13            # 13 = 0000 1101
+c = 0
+
+c = a & b;        # 12 = 0000 1100
+print "Line 1 - Value of c is ", c
+
+c = a | b;        # 61 = 0011 1101
+print "Line 2 - Value of c is ", c
+
+c = a ^ b;        # 49 = 0011 0001
+print "Line 3 - Value of c is ", c
+
+c = ~a;           # -61 = 1100 0011
+print "Line 4 - Value of c is ", c
+
+c = a << 2;       # 240 = 1111 0000
+print "Line 5 - Value of c is ", c
+
+c = a >> 2;       # 15 = 0000 1111
+print "Line 6 - Value of c is ", c
+
+以上实例输出结果：
+
+Line 1 - Value of c is 12
+Line 2 - Value of c is 61
+Line 3 - Value of c is 49
+Line 4 - Value of c is -61
+Line 5 - Value of c is 240
+Line 6 - Value of c is 15
+```
+
+### Python逻辑运算符
+
+Python语言支持逻辑运算符，以下假设变量a为10，变量b为20：
+
+|运算符|	描述|	实例|
+| ---------- | --- |--- |
+|and|	布尔"与" - 如果x为False，x and y返回False，否则它返回y的计算值。|	(a and b) 返回 true。|
+|or	|布尔"或" - 如果x是True，它返回True，否则它返回y的计算值。|	(a or b) 返回 true。|
+|not|	布尔"非" - 如果x为True，返回False。如果x为False，它返回True。	|not(a and b) 返回 false。|
+
+以下实例演示了Python所有逻辑运算符的操作：
+
+```Python
+#!/usr/bin/python
+
+a = 10
+b = 20
+c = 0
+
+if ( a and b ):
+   print "Line 1 - a and b are true"
+else:
+   print "Line 1 - Either a is not true or b is not true"
+
+if ( a or b ):
+   print "Line 2 - Either a is true or b is true or both are true"
+else:
+   print "Line 2 - Neither a is true nor b is true"
+
+a = 0
+if ( a and b ):
+   print "Line 3 - a and b are true"
+else:
+   print "Line 3 - Either a is not true or b is not true"
+
+if ( a or b ):
+   print "Line 4 - Either a is true or b is true or both are true"
+else:
+   print "Line 4 - Neither a is true nor b is true"
+
+if not( a and b ):
+   print "Line 5 - a and b are true"
+else:
+   print "Line 5 - Either a is not true or b is not true"
+
+以上实例输出结果：
+
+Line 1 - a and b are true
+Line 2 - Either a is true or b is true or both are true
+Line 3 - Either a is not true or b is not true
+Line 4 - Either a is true or b is true or both are true
+Line 5 - a and b are true
+   
+```
+
+### 成员运算符
+
+除了以上的一些运算符之外，Python还支持成员运算符，测试实例中包含了一系列的成员，包括字符串，列表或元组。
+
+|运算符|	描述|	实例|
+| ---------- | --- |--- |
+|in	|如果在指定的序列中找到值返回True，否则返回False。	|x 在 y序列中 , 如果x在y序列中返回True。|
+|not in	|如果在指定的序列中没有找到值返回True，否则返回False。	|x 不在 y序列中 , 如果x不在y序列中返回True。|
+
+以下实例演示了Python所有成员运算符的操作：
+
+```Python
+#!/usr/bin/python
+
+a = 10
+b = 20
+list = [1, 2, 3, 4, 5 ];
+
+if ( a in list ):
+   print "Line 1 - a is available in the given list"
+else:
+   print "Line 1 - a is not available in the given list"
+
+if ( b not in list ):
+   print "Line 2 - b is not available in the given list"
+else:
+   print "Line 2 - b is available in the given list"
+
+a = 2
+if ( a in list ):
+   print "Line 3 - a is available in the given list"
+else:
+   print "Line 3 - a is not available in the given list"
+   
+以上实例输出结果：
+
+Line 1 - a is not available in the given list
+Line 2 - b is not available in the given list
+Line 3 - a is available in the given list
+```
+### 运算符优先级
+
+以下表格列出了从最高到最低优先级的所有运算符：
+
+运算符	描述
+| 	|指数 (最高优先级)|
+| ---------- | --- |
+|~ + -	|按位翻转, 一元加号和减号 (最后两个的方法名为 +@ 和 -@)|
+|* / % // |乘，除，取模和取整除| 
+|+ -	|加法减法|
+|>> <<	|右移，左移运算符|
+|&	|位 'AND'|
+|^ |	位运算符
+<= < > >=	比较运算符
+<> == !=	等于运算符
+= %= /= //= -= += = *=	赋值运算符
+is is not	身份运算符
+in not in	成员运算符
+not or and	逻辑运算符
+
+
+
+
