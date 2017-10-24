@@ -12,7 +12,7 @@ for i in range(1,5):
                 print(i,j,k,m)
 print("次数是m",format(m))
 ```
-#2： 
+#2： 整型、浮点型、字符串型如何定义和格式化的方法？
 ```Python
 age = 20
 name = 'Swaroop'
