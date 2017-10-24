@@ -522,6 +522,36 @@ Line 3 - a is available in the given list
 |in not in	|成员运算符|
 |not or and	|逻辑运算符|
 
+以下实例演示了Python所有运算符优先级的操作：
 
+```Python
+#!/usr/bin/python
+
+a = 20
+b = 10
+c = 15
+d = 5
+e = 0
+
+e = (a + b) * c / d       #( 30 * 15 ) / 5
+print "Value of (a + b) * c / d is ",  e
+
+e = ((a + b) * c) / d     # (30 * 15 ) / 5
+print "Value of ((a + b) * c) / d is ",  e
+
+e = (a + b) * (c / d);    # (30) * (15/5)
+print "Value of (a + b) * (c / d) is ",  e
+
+e = a + (b * c) / d;      #  20 + (150/5)
+print "Value of a + (b * c) / d is ",  e
+
+以上实例输出结果：
+
+Value of (a + b) * c / d is 90
+Value of ((a + b) * c) / d is 90
+Value of (a + b) * (c / d) is 90
+Value of a + (b * c) / d is 50
+
+```
 
 
