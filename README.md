@@ -98,7 +98,24 @@ TypeError:Cannot convert 'int' object to str implictly
 spam\SPAM\Spam\SpAm 是4个不同的变量，小写字母开头是Python的惯例。
 
 
+#8： print()函数输出括号内的字符串？
+```Python
+i = 5
+print(i)
+i = i + 1
+print(i)
 
+s = '''This is a multi-line string.
+This is the second line.'''
+print(s)
+```
+
+输出：
+
+5
+6
+This is a multi-line string.
+This is the second line.
 
 
 
