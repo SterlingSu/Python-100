@@ -30,7 +30,7 @@ Why is Swaroop playing with that python?
 
 包含单引号（'）的字符串，你应该如何指定这串字符串？
 
-方法1：你通过 \ 来指定单引号：要注意它可是反斜杠。现在，你可以将字符串指定为 'What\'s your name?'。
+方法1：你通过 \ 来指定单引号：要注意它可是反斜杠。现在，你可以将字符串指定为 'What\'s your name?'。<br />
 方法2： 双引号 这样的： "What's your name?"
 
 |    Escape Sequence    | 实际含义 |举例 |
@@ -41,7 +41,7 @@ Why is Swaroop playing with that python?
 | \' |  单引号 ||
 | \" |  双引号 ||
 | \r |  回车 ||
-| \ |  一个放置在末尾的反斜杠表示字符串将在下一行继续，但不会添加新的一行。 |"This is the first sentence. \
+| \ |  一个放置在末尾的反斜杠表示字符串将在下一行继续，但不会添加新的一行。 |"This is the first sentence. '\
 This is the second sentence."<br />相当于<br /"This is the first sentence. This is the second sentence.">|
 
 
