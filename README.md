@@ -62,9 +62,9 @@ However in the end it doesn't matter how a string was created, being it a raw st
 >>> 'Elsa' + 'mandy'
 >>> 'Elsamandy'
 ```
->* 错误示范*
+> *错误示范*
 ```Python
->>> 'Elsa' *5
+>>> 'Elsa' * 5
 ```
 
 
