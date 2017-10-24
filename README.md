@@ -57,6 +57,14 @@ p1 and p3 a str and p2 and p4 a unicode object in Python 2.x, containing the val
 The u,  r and ur just tell the parser, how to interpret the following quoted string, namely as a unicode text (u) and/or a raw text (r) where backslashes to encode other characters are ignored. <br />
 However in the end it doesn't matter how a string was created, being it a raw string or not, internally it is stored the same.
 
-
+#5： 字符串如何连接和复制？
+```Python
+>>> 'Elsa' + 'mandy'
+>>> 'Elsamandy'
+```
+>* 错误示范*
+```Python
+>>> 'Elsa' *5
+```
 
 
