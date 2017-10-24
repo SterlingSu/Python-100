@@ -65,11 +65,42 @@ However in the end it doesn't matter how a string was created, being it a raw st
 > *错误示范*
 ```Python
 >>> 'Elsa' + 100  # Elsa同学加100块钱
+TypeError:Cannot convert 'int' object to str implictly
 ```
 接下来呢？
 ```Python
 >>> 'Elsa' * 5
 >>> 'ElsaElsaElsaElsaElsa'
 ```
+* 操作符用于一个字符串和一个整型值时，变成了"字符串复制"操作符。
+
+#6： 变量中的赋值语句？
+```Python
+>>>spam = 40
+>>> spam
+40
+>>> eggs = 2
+>>> eggs + spam
+42
+>>> eggs + spam + spam
+?
+>>> spam= spam + 2
+?
+>>> spam= 'Hello'
+?
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
