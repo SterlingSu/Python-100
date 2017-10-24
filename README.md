@@ -42,6 +42,21 @@ Why is Swaroop playing with that python?
 | \" |  双引号 ||
 | \r |  回车 ||
 | \ |  一个放置在末尾的反斜杠表示字符串将在<br />下一行继续，但不会添加新的一行。 |"This is the first sentence. <font color=red>反斜杠</font>This is the second sentence."<br />相当于<br />"This is the first sentence. This is the second sentence."|
-gg
+
+#4: 什么是Python中的“u”和“r”字符串标记，什么是raw字符串文字？
+```Python
+>>> p1 = "pattern"
+>>> p2 = u"pattern"
+>>> p3 = r"pattern"
+>>> p4 = ur"pattern" # it's ur"", not ru"" btw
+>>> p1 == p2 == p3 == p4
+True
+```
+While these constructs look different, they all do the same thing.they create a string object<br />
+p1 and p3 a str and p2 and p4 a unicode object in Python 2.x, containing the value "pattern".<br />
+The u,  r and ur just tell the parser, how to interpret the following quoted string, namely as a unicode text (u) and/or a raw text (r) where backslashes to encode other characters are ignored. <br />
+However in the end it doesn't matter how a string was created, being it a raw string or not, internally it is stored the same.
+
+
 
 
