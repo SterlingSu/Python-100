@@ -41,7 +41,7 @@ Why is Swaroop playing with that python?
 | \' |  单引号 ||
 | \" |  双引号 ||
 | \r |  回车 ||
-| \ |  一个放置在末尾的反斜杠表示字符串将在下一行继续，但不会添加新的一行。 |"This is the first sentence. <font color=red>反斜杠</font>
+| \ |  一个放置在末尾的反斜杠表示字符串将在<br />下一行继续，但不会添加新的一行。 |"This is the first sentence. <font color=red>反斜杠</font>
 This is the second sentence."<br />相当于<br /"This is the first sentence. This is the second sentence.">|
 
 
