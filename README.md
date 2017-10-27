@@ -22,7 +22,7 @@
 
 <b>资源区：</b>
 <ol>
-  <li>CheckIOhttps://checkio.org/</li>
+  <li>CheckIO https://checkio.org/</li>
   </ol>
 
 
