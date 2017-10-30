@@ -1,7 +1,23 @@
 # Python-100
 100道Python编程题
 
-<br />
+**“Life is short
+(You need Python)” ----Bruce Eckel  VS 人生苦短，我不写程序。<br />
+1989年，那是一个冬天，有一个Guido，在圣诞节画了一个圈。<br />
+BBC电视剧--<< Monty Python's Flying Circus >>.<br />
+1991年，第一个Python版本诞生。**<br />
+
+
+应用
+<ul>
+<li>NASA 的火箭发射仪表盘系统使用了Python的Tkinter--支持实时响应的GUI库。</li><br/ >
+<li>NASA的太阳物理学分词库Sunpy是基于Python</li><br/ >
+<li>Youtube基于开发速度考虑，大部分代码是Python实现</li><br/ >
+<li>Google，Dropbox大量采用Python语言</li><br/ >
+<li>国内的豆瓣、知乎采用Python开发</li><br/ >
+<li>AI时代：大数据、机器学习的第一编程语言</li><br/ >
+</ul>
+
 <ol>
 <li>Python 2.7 & Python 3.6 同时安装在电脑？</li>
 <li>pip 如何分别安装到不同版本的Python？</li>
@@ -19,6 +35,9 @@
 <li>文本和数字是否相等？#11</li>
 <li>四则运算有哪些？#12</li>
 </ol>
+
+
+
 
 <b>资源区：</b>
 <ol>
