@@ -17,7 +17,7 @@ BBC电视剧--<< Monty Python's Flying Circus >>.<br />
 <li>国内的豆瓣、知乎采用Python开发</li><br/ >
 <li>AI时代：大数据、机器学习的第一编程语言</li><br/ >
 </ul>
-
+The State of the Octoverse 2017 https://octoverse.github.com/
 <ol>
 <li>Python 2.7 & Python 3.6 同时安装在电脑？</li>
 <li>pip 如何分别安装到不同版本的Python？</li>
