@@ -1,10 +1,10 @@
 # Python-100
-100道Python编程题
+100道Python编程题<br />
 <br />
 **起源**
 <ul>
-<li>**“Life is short
-(You need Python)” ----Bruce Eckel ** VS 人生苦短，我不写程序。</li><br />
+<li>“Life is short
+(You need Python)” ----Bruce Eckel  VS 人生苦短，我不写程序。</li><br />
 <li>1989年，那是一个冬天，有一个Guido，在圣诞节画了一个圈。</li><br />
 <li>BBC电视剧--<< Monty Python's Flying Circus >>.</li><br />
 <li>1991年，第一个Python版本诞生。</li><br />
