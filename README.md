@@ -8,7 +8,7 @@ BBC电视剧--<< Monty Python's Flying Circus >>.<br />
 1991年，第一个Python版本诞生。**<br />
 
 
-应用
+**应用**
 <ul>
 <li>NASA 的火箭发射仪表盘系统使用了Python的Tkinter--支持实时响应的GUI库。</li><br/ >
 <li>NASA的太阳物理学分词库Sunpy是基于Python</li><br/ >
@@ -17,7 +17,20 @@ BBC电视剧--<< Monty Python's Flying Circus >>.<br />
 <li>国内的豆瓣、知乎采用Python开发</li><br/ >
 <li>AI时代：大数据、机器学习的第一编程语言</li><br/ >
 </ul>
+
 The State of the Octoverse 2017 https://octoverse.github.com/
+<br />
+
+**优点**
+<ul>
+<li>自由开放</li><br/ >
+<li>扩展性好</li><br/ >
+<li>跨平台特性</li><br/ >
+<li>兼具面向对象和函数式编程范式</li><br/ >
+<li>Python标准库规模庞大</li><br/ >
+
+</ul>
+
 <ol>
 <li>Python 2.7 & Python 3.6 同时安装在电脑？</li>
 <li>pip 如何分别安装到不同版本的Python？</li>
