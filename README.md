@@ -30,7 +30,14 @@ The State of the Octoverse 2017 https://octoverse.github.com/
 <li>跨平台特性</li><br/ >
 <li>兼具面向对象和函数式编程范式</li><br/ >
 <li>Python标准库规模庞大</li><br/ >
+</ul>
 
+**谁在用Github**
+<ul>
+<li>ASUS Cloud https://github.com/ASUSCloudIoT</li><br/ >
+<li>ASUS-AMAX-Cloud https://github.com/ASUS-AMAX-Cloud</li><br/ >
+<li>ASUSTeK Computer Inc. https://github.com/ASUS-US</li><br/ >
+<li>Zenfone-Dev https://github.com/Zenfone-Dev</li><br/ >
 </ul>
 
 <ol>
