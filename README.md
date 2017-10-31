@@ -83,6 +83,7 @@ The State of the Octoverse 2017 https://octoverse.github.com/
 <b>资源区：</b>
 <ol>
   <li>CheckIO https://checkio.org/</li>
+  <li>廖雪峰python进阶 http://www.imooc.com/learn/317</li>
   </ol>
 
 
