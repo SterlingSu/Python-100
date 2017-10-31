@@ -86,8 +86,6 @@ The State of the Octoverse 2017 https://octoverse.github.com/
   <li>廖雪峰python进阶 http://www.imooc.com/learn/317</li>
   </ol>
 
-
-
 ![](http://sterling-pic.qiniudn.com/17-10-31/79312992.jpg)
 
 
