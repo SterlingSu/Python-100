@@ -15,7 +15,7 @@
 <li>NASA 的火箭发射仪表盘系统使用了Python的Tkinter--支持实时响应的GUI库。</li><br/ >
 <li>NASA的太阳物理学分词库Sunpy是基于Python</li><br/ >
 <li>Youtube基于开发速度考虑，大部分代码是Python实现</li><br/ >
-<li>Google，Dropbox大量采用Python语言</li><br/ >
+<li>Google，Dropbox，Instagram 大量采用Python语言</li><br/ >
 <li>国内的豆瓣、知乎采用Python开发</li><br/ >
 <li>AI时代：大数据、机器学习的第一编程语言</li><br/ >
 </ul>
@@ -25,12 +25,28 @@ The State of the Octoverse 2017 https://octoverse.github.com/
 
 **优点**
 <ul>
+<li>优雅、明确、简单</li><br/ >
 <li>自由开放</li><br/ >
 <li>扩展性好</li><br/ >
 <li>跨平台特性</li><br/ >
 <li>兼具面向对象和函数式编程范式</li><br/ >
 <li>Python标准库规模庞大</li><br/ >
 </ul>
+
+**适合的领域**
+|    Python  适合的领域  | Python不适合的领域 |
+| ---------- | --- | 
+| Web网站和各种网络服务 |  贴近硬件的代码（首选C） | 
+| 系统工具和脚本 |  移动开发：Android：Java，IOS：Swift/ObjrctC | 
+| 胶水语言：把其他语言开发的模块包装起来 |  游戏开发：C/C++，实时渲染 | 
+
+**和其他语言的对比**
+|   #   | 类型 | 运行速度| 代码量 |
+| ---------- | --- | --- | --- | 
+| C | 编译为机器码  | 非常快  | 非常多  | 
+|Java | 编译为字节码  | 快  | 多  | 
+| Python | 解释执行  | 慢  |  少 | 
+
 
 **谁在用Github**
 <ul>
